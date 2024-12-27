@@ -15,17 +15,10 @@
 #
 
 # Inherit from the common OEM chipset makefile.
-$(call inherit-product, device/realme/sm8250-common/common.mk)
+$(call inherit-product, device/oppo/sm8250-common/common.mk)
 
 # Inherit proprietary libraries
-$(call inherit-product, vendor/realme/bitra/bitra-vendor.mk)
-
-# Camera
-$(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/camera/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_config \
-    $(LOCAL_PATH)/configs/camera/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_aps_config
+$(call inherit-product, vendor/oppo/xynew/xynew-vendor.mk)
 
 # API
 BOARD_SHIPPING_API_LEVEL := 30
@@ -41,7 +34,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths.xml \
     $(LOCAL_PATH)/audio/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_ODM)/etc/sound_trigger_platform_info.xml \
     $(LOCAL_PATH)/audio/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_platform_info.xml
-
+    
 # Overlays
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
@@ -53,4 +46,4 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    device/realme/bitra
+    device/oppo/xynew

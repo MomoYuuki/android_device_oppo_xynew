@@ -8,8 +8,7 @@
 
 set -e
 
-export DEVICE=bitra
+export DEVICE=xynew
 export DEVICE_COMMON=sm8250-common
-export VENDOR=realme
-
+export VENDOR=oppo
 "./../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"

@@ -1,11 +1,11 @@
 # Bluetooth
-bluetooth.device.default_name=realme GT Neo2 5G
+bluetooth.device.default_name=OPPO Find X3
 
 # Fingerprint
 persist.vendor.fp.template_updateflag=V1
 
 # USB
-vendor.usb.product_string=realme GT Neo2 5G
+vendor.usb.product_string=OPPO Find X3
 
 # Verity
 ro.apk_verity.mode=2
