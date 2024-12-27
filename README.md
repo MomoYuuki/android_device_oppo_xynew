@@ -1,27 +1,27 @@
-# Device Tree for the Realme GT Neo2 5G
+# Device Tree for the Oppo Find X3
 
-The realme GT Neo2 5G (codenamed _"bitra"_) is a high-end smartphone from realme. It was announced and released in September 2021.
+The Oppo Find X3 (codenamed _"xynew"_) is a high-end smartphone from oppo. It was announced and released in September 2021.
 
 ## Device specifications
 
 | Feature               | Specification                                                                 |
 | :---------------------| :-----------------------------------------------------------------------------|
-| Chipset               | Qualcomm SM8250-AC Snapdragon 870 5G (7 nm)                                      |
+| Chipset               | Qualcomm SM8250-AC Snapdragon 870 5G (7 nm)                                   |
 | CPU                   | Octa-core Kryo 585 (1x3.2 GHz Prime, 3x2.42 GHz Gold & 4x1.80 GHz Silver)     |
 | GPU                   | Adreno 650                                                                    |
 | Memory                | 8/12 GB LPDDR4X RAM                                                           |
-| Shipped OS            | Android 11.0 (RealmeUI 2.0)                                                   |
+| Shipped OS            | Android 11.0 (CoolorOS V11.2)                                                 |
 | Storage               | 128/256 GB UFS 3.1                                                            |
 | SIM                   | Dual SIM (Nano-SIM, dual stand-by)                                            |
-| Battery               | 5000 mAh Li-Po (non-removable), 65W fast charge                               |
-| Dimensions            | 162.9 x 75.8 x 9 mm (6.41 x 2.98 x 0.35 in)                                   |
-| Display               | 6.62 inch, 1080 x 2400 (20:9 ratio) AMOLED, 120Hz, HDR10+                     |
-| Rear Camera           | 64MP (wide) / 8MP (ultrawide) / 2MP (macro)                                   |
-| Front Camera          | 16MP (wide)                                                                   |
-| Sensors               | Fingerprint (under display, optical), Accelerometer, Gyro, Proximity, Compass |
+| Battery               | 4500 mAh Li-Po (non-removable), 65W fast charge , 30W wireless                |
+| Dimensions            | 163.6 x 74 x 8.3 mm (6.44 x 2.91 x 0.33 in)                                   |
+| Display               | 6.7 inch, 1440 x 3216 (20:9 ratio) AMOLED, 120Hz, HDR10+                      |
+| Rear Camera           | 50MP (wide) / 13MP (telephoto) / 50MP (ultrawide)  /  3MP (microscope)        |
+| Front Camera          | 32MP (wide)                                                                   |
+| Sensors               | Fingerprint (under display, optical), accelerometer, gyro, proximity          |
 
 ## Device picture
 
-![realme GT Neo2 5G](https://cdn-files.kimovil.com/default/0006/52/thumb_551574_default_big.jpeg)
+![Oppo Find X3](https://www.91-img.com/gallery_images_uploads/d/e/def4d6bbb96ef7ff675fc9dd07e982b961b62de4.jpg)
 
-Copyright (C) 2022 The LineageOS Project.
+Copyright (C) 2024 The LineageOS Project.
